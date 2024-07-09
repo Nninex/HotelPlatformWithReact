@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 500px;
+  }
+  .form-container {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  input[type="text"], input[type="email"], input[type="password"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width : 100%;
+  }
+  .social-button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width : 100%;
+  }
+  .facebook {
+    background-color: #3b5998;
+    color: white;
+  }
+  .google {
+    background-color: #dfd9d8;
+    color: rgb(22, 19, 19);
+  }
+  .x {
+    background-color: #201f1f;
+    color: white;
+  }
+  .social-button:hover {
+    opacity: 0.9;
+  }

@@ -1,38 +1,87 @@
+/* Basic styles for the application */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  text-align: justify;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; 
+  max-width: 1200px; 
+  padding: 0 15px;
+  box-sizing: border-box; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navbar styles */
+.navbar {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.language-switcher {
+  position: right;
+  top: 10px;
+  right: 10px;
+}
+
+/* Social Network component */
+.social-network {
+  margin-top: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.social-network button {
+  margin: 0 5px;
+}
+
+/* ContactMe component */
+.contact-me {
+  margin-top: 20px;
+}
+
+/* Home page */
+.home {
+  margin-top: 20px;
+}
+
+/* SignUp page */
+.sign-up {
+  margin-top: 10px;
+}
+
+/* About Us page */
+.about-us {
+  margin-top: 20px;
+}
+
+/* Reservation page */
+.reservation {
+  margin-top: 20px;
+}
+
+
+.sign-in {
+  margin-top: 10px;
+}
+
+
+.footer {
+  background-color: #282c34;
+  padding: 20px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }

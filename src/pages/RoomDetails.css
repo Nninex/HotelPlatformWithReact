@@ -1,0 +1,28 @@
+.room-details-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .room-details-page img.room-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-details-page h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .room-details-page p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .room-details-page p:last-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
