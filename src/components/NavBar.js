@@ -50,7 +50,7 @@ function NavBar() {
               <a
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-                href="#"
+                href="/menu"
                 role="button"
                 aria-haspopup="true"
                 aria-expanded="false"
@@ -61,7 +61,7 @@ function NavBar() {
                 <a className="dropdown-item" href="/reservation">
                   Reserve a room
                 </a>
-                <a className="dropdown-item" href="/signup">
+                <a className="dropdown-item" href="/profile">
                   Profile
                 </a>
                 <div className="dropdown-divider"></div>
@@ -71,13 +71,13 @@ function NavBar() {
               </div>
             </li>
           </ul>
-          <form class="d-flex">
+          <form className="d-flex">
             <input
-              class="form-control me-sm-2"
+              className="form-control me-sm-2"
               type="search"
               placeholder="Search"
-            ></input>
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+            />
+            <button className="btn btn-secondary my-2 my-sm-0" type="submit">
               Search
             </button>
           </form>
