@@ -27,7 +27,7 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/reservation" element={<Reservation />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/rooms/:id" component={RoomDetails} />
+          <Route path="/rooms/:id" component={<RoomDetails/>} />
         </Routes>
         <SocialNetwork />
         <ContactMe />
